@@ -1,0 +1,113 @@
+    2  rmdir dockerapp
+    3  rmdir -f dockerapp
+    5  rm -rf dockerapp
+    6  mk -r dockerapp
+   10  cd .docker
+   57  man docker
+   81  nano docker-compose.yml
+   84  cat docker-compose.yml
+   85  docker compose up -d
+   86  docker run -e TS3SERVER_LICENSE=view teamspeak
+   87  nano docker-compose.yml
+   90  rm docker-compose.yml
+   91  nano docker-compose.yml
+   92  docker compose up -d
+   93  docker compose ps
+   94  docker compose logs
+   95  docker ps
+   96  docker stats
+  100  docker compose pd
+  101  docker compose ps
+  102  docker compose down
+  103  docker compose up
+  104  docker ps
+  105  docker ports
+  106  docker port teamspeak
+  107  docker port 8bdd26f2969d
+  110  docker compoaw 
+  111  docker compose down
+  113  rm -rf dockerapp
+  121  nano docker-compose.yml
+  122  docker compose up -d
+  124  docker ps
+  131  docker compose ps
+  132  docker compose down
+  133  nano docker-compose.yml
+  134  rm docker-compose.yml
+  136  nano docker-compose.yml
+  137  docker compose up -d
+  138  docker compose pd
+  139  docker compose ps
+  140  docker ps
+  141  docker logs -f minecraft-server
+  143  docker logs -f minecraft-server
+  144  docker exec -i minecraft-server rcon-cli
+  145  docker attach minecraft-server
+  154  docker compose down
+  158  nano docker-compose.yml
+  159  docker compose up -d
+  160  docker attach minecraft-server
+  161  docker compose down
+  162  rm docker-compose.yml
+  163  nano docker-compose.yml
+  164  docker compose up -d
+  165  docker attach minecraft-server
+  166  docker compose ps
+  167  docker attach mc-mc-1
+  168  docker compose down
+  169  nano docker-compose.yml
+  170  docker compose up -d
+  171  docker attach minecraft-server
+  172  docker attach mc-mc-1
+  173  docker attach mc_default
+  174  docker ps
+  175  docker compose up -d
+  176  docker logs -f minecraft-server
+  177  docker logs -f mc-mc-1
+  178  docker compose down
+  179  nano docker-compose.yml
+  180  docker compose up -d
+  181  docker logs mc-mc-1
+  182  docker images
+  183  docker logs mc-mc-1
+  184  docker compose up -d
+  185  docker compose down
+  186  nano docker-compose.yml
+  187  docker run -d -it -p 80:25565 -e EULA=TRUE itzg/minecraft-server
+  188  docker ps
+  189  docker attach 40899c1e5d186a02a6eadf78ae4aabdb3dbb24c56783f9de5cc170d1f625e12c
+  190  nano docker-compose.yml
+  196  nano docker-compose
+  197  nano docker-compose.yml
+  198  docker compose down
+  199  docker compose up -d
+  200  docker attach mc-mc-1
+  201  docker compose down
+  202  docker system prune -f
+  203  docker volume ls
+  204  docker ps -a
+  205  docker compose down -v
+  206  docker volume ls
+  207  docker volume prune
+  208  docker ps
+  230  docker run -d \
+  241  docker run -d \
+  254  nano docker-compose.yml
+  255  docker compose up -d
+  257  docker compose down
+  258  nano docker-compose.yml
+  259  docker compose up
+  260  docker ps
+  263  git clone https://github.com/sadamadecki/test_docker_jpai.git
+  265  cd test_docker_jpai
+  267  docker build -t kartkowka
+  268  docker build -t kartkowka .
+  269  docker build -t kolokwium:latest .
+  277  docker build -t kolokwium:latest
+  278  docker build -t kolokwium:latest .
+  280  mv zbuduj_mnie dockerfile
+  282  docker build -t kolokwium:latest .
+  283  docker run -d -p 3000:3000 --name kontener kolokwium:latest
+  285  docker rm -f kontener
+  286  docker image prune
+  287  history | grep docker | tee docker.log
